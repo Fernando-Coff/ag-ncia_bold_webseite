@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+#start{
+    background-image: url(/assets/img/HERO\ BACKGROUND.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: start;
+    min-height: 700px;
+    padding: 1.8rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #255AFF;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.contact{
+    background-color: #0F3FD3;
+    border-radius: 10px;
+    backdrop-filter: blur(10);
+    padding: 0.9rem 1.5rem;
+    border-color: transparent;
+    color: #F0F4FA;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgpt-1{
+    color: #FFDD33;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.lgpt-2{
+    color: #F0F4FA;
+    font-size: 1.75rem;
+    font-weight: 650;
+}
+
+.nav-list{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.nav-item a{
+    color: #F0F4FA;
+    text-decoration: none;
+}
+
+
+.title{
+    margin-top: 4.5rem;
+}
+
+.title h1{
+    color: #F0F4FA;
+    font-size: 3.25rem;
+    font-weight: 450;
+    text-align: center;
+}
+
+.slogan{
+    margin-top: 1.1rem;
+}
+
+.slogan p{
+    color: #F0F4FA;
+    font-weight: 0.875rem;
+    text-align: center;
+    font-weight: 350;
+    letter-spacing: 0.175rem;
+}
+
+.image-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.image-center img{
+    width: 50rem;
+}
+
+.supporters{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.supporters img{
+    width: 13.5rem;
+}
+
+#about{
+    padding-bottom: 6.5rem;
+}
+
+.about-title h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-slogan{
+    margin-top: 2rem;
+}
+
+.about-slogan p{
+    color: #7E92AC;
+    font-weight: 0.75rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.about-group{
+    margin: 5rem;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.about-item{
+    padding: 0rem 3rem 3rem 3rem;
+    height: 22rem;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.175);
+}
+
+.about-item-title{
+    font-size: 1.3rem;
+}
+
+.about-item-text{
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.about-item-text a{
+    text-decoration: none;
+    color: #255AFF;
+}
+
+#banner{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/BANNER\ IMG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-bottom: 5rem;
+}
+
+.banner-title h2{
+    font-weight: 400;
+    font-size: 3rem;
+    color: #F0F4FA;
+    padding: 1.5rem;
+}
+
+.banner-text p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #F0F4FA;
+    padding: 0rem 1rem 2rem 1rem;
+}
+
+.banner-button button{
+    background-color: #FFDD33;
+    border: transparent;
+    padding: 0.8rem 1rem;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.banner-button button a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #0F3FD3;
+    text-transform: uppercase;
+}
+
+#benefits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.left-benefits{
+   width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.left-benefits h2{
+    padding-left: 10rem;
+    font-size: 3rem;
+}
+
+.topic-group{
+    margin-top: 2.5rem;
+}
+
+.topc-item{
+    padding: 0rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topc-item img{
+    width: 6.5rem;
+}
+
+.topc-item p{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.rigt-benefits{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.rigt-benefits img{
+    width: 45rem;
+}
+.rigt-benefits{
+    padding-right:8rem;
+}
+
+.topic-button{
+    padding: 2rem 10rem;
+}
+
+.topic-button button{
+    background-color: #255AFF;
+    border-radius: 7px;
+    border: transparent;
+    padding: 0.8rem 1rem;
+}
+
+.topic-button button a{
+    text-decoration: none;
+    color: #F0F4FA;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#evidence{
+    padding-bottom: 10rem;
+}
+
+.evidence-title h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.evidence-group{
+    padding: 0rem 8rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evidence-item{
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.evidence-name h3{
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.evidence-ad h4{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: #7E92AC;
+
+}
+
+.evidence-text{
+    padding:  1rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #7E92AC;
+    text-align: justify;
+}
+
+#contact{
+    padding-bottom: 5rem;
+}
+
+.contact-title h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.input-group form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    gap: 0.75rem;
+}
+
+.input-item{
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    height: 2.5rem;
+}
+.input-item input{
+    width: 35rem;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-message{
+    display: flex;
+    align-items: start;
+    width: 35rem;
+    height: 15rem;
+}
+
+.input-message textarea{
+    width: 35rem;
+    height: 15rem;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    resize: none;
+}
+
+.submit-button input{
+    width: 35rem;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: transparent;
+    background-color: #255AFF;
+    color: #F0F4FA;
+    cursor: pointer;
+}
+
+footer{
+    padding: 1.5rem;
+    background-image: url(/assets/img/BANNER\ IMG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.credits{
+    color: #F0F4FA;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
